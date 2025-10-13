@@ -1,0 +1,15 @@
+  205  git add oops2
+  206  git commit -m 
+  207  git commit -m "still practicing git rm"
+  208  git push origin main
+  209  rm oops2
+  210  git add oops2
+  211  git commit -m "removing oops2"
+  212  git push
+  213  vi never
+  214  git add never
+  215  git reset never
+  216  man rm
+  218  man cp
+  219  history
+  220  cat history > unixBasics.history.txt
