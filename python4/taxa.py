@@ -1,0 +1,11 @@
+taxa_string = 'sapiens : erectus : neanderthalensis'
+print(taxa_string)
+taxa_list = taxa_string.split(":")
+print(taxa_list)
+print(taxa_list[1])
+print(type(taxa_list))
+print(type(taxa_string))
+sorted_list = sorted(taxa_list)
+print(sorted_list)
+sorted_list_l = sorted(taxa_string, key=len)
+print(sorted_list_l)
